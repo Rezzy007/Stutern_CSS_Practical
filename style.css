@@ -202,6 +202,7 @@ font-size: 20px;
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
 
 .venee_header {
   color: rgb(6, 6, 7);
@@ -749,4 +750,73 @@ span.ami-time {
     margin-bottom: 18px;
     resize: none;
     margin-left: 5px;
+}
+
+/* Orezi's CSS Styles */
+.orezi_cv_assignment {
+  width: 100%;
+  max-width: 1440px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.orezi_cv_container {
+  width: 80%;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+/* Header */
+.orezi_header {
+  text-align: center;
+  padding: 40px 10px;
+  background-color: #0187DE;
+  color: #F7F7F7;
+  border-bottom: 5px solid #D9EDFA;
+}
+
+/* Body */
+.orezi_cv_body {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 20px 0 0 0;
+  background-color: #D9EDFA;
+  border-top: 5px solid #0187DE;
+}
+
+.orezi_col_left, .orezi_col_right {
+  padding: 20px;
+}
+
+.orezi_col_right {
+  background-color: #fff;
+}
+
+.col_title_container,
+.col_content {
+  margin-bottom: 30px;
+}
+
+.col_title_span {
+  font-weight: 900;
+  display: inline-block;
+}
+
+.skills {
+  padding-left: 20px;
+}
+
+.col_title h2, .col_title p {
+  margin-bottom: 10px;
+}
+
+.col_content {
+  padding-left: 30px;
+}
+
+.col_content li {
+  margin-bottom: 7px;
+}
+
+.orezi_col_right p, li {
+  line-height: 1.5rem;
 }
